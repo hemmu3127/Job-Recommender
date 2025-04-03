@@ -11,6 +11,9 @@ import chromadb
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import pickle
 import hashlib
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')

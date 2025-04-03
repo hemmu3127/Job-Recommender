@@ -8,3 +8,4 @@ logging
 pickle-mixin
 google-generativeai
 langchain
+pysqlite3-binary
