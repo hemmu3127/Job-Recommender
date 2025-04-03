@@ -8,4 +8,4 @@ logging
 pickle-mixin
 google-generativeai
 langchain
-sqlite3
+sqlite3==3.35.0
