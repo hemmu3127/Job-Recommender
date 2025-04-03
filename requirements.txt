@@ -1,0 +1,10 @@
+streamlit
+chromadb
+scikit-learn
+numpy
+selenium
+PyPDF2
+logging
+pickle-mixin
+google-generativeai
+langchain
